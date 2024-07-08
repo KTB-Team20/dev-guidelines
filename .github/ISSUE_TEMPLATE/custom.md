@@ -1,14 +1,5 @@
 ---
 name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
----
-
----
-name: Custom issue template
 about: '제목 : `[이슈명] / <기능명> / <버그명>`'
 title: ''
 labels: ''
