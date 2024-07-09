@@ -21,6 +21,7 @@ jobs:
     - uses: actions/stale@v5
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        days-before-stale: 10  # 이 값을 원하는 기간(일 단위)으로 설정
         stale-issue-message: '오래된 issue 메시지'
         stale-pr-message: '오래된 PR 메시지'
         stale-issue-label: '활동없는 issue'
